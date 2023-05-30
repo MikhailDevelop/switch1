@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: gold;
+}
+
+header > .headline {
+    width: 100%;
+    box-shadow: 1px 10px 13px 0 color(srgb 1 0.8402 0.005);
+}
+
+.headline > .header_in {
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0 27px;
+}
+
+.header_in > .logo {
+    font-size: 25px;
+}
+
+.header_in > .bars {
+    font-size: 25px;
+}
+/**/
+
+.main_container {
+    width: 100%;
+}
+
+.main_container > .container_croun {
+    width: 100%;
+    max-width: 960px;
+    margin: 40px auto;
+    height: 200px;
+}
+
+/*начало (красота написания)*/
+.main_container > .container_croun > .container_in {
+    width: 100%;
+    max-width: 960px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 222, 179, 0.33);
+    padding: 10px 30px;
+}
+
+.main_container > .container_croun > .container_in > .container_t {
+    width: 100%;
+    max-width: 960px;
+    margin:40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_croun > .container_in > .btns  {
+    width: 24%;
+    display: inline-block;
+}
+.container_croun > .container_in > .container_t > .item  {
+    display: inline-block;
+}
+
+.container_croun > .container_in > .container_t > .item > .word {
+    display: inline-block;
+}
+.word > .exspr_one {
+    display: inline-block;
+}
+
+.word > .translate {
+    display: inline-block;
+}
+
+.exspr_one > .item > .word > .I {
+    padding: 2px;
+    /* position: absolute; */
+}
+
+.exspr_one > .item > .word > .I:hover {
+    padding: 2px;
+}
+
+.exspr_one > .item > .word > .speak {
+    padding: 2px;
+}
+
+.exspr_one > .item > .word > .english {
+    padding: 2px;
+}
+
+.container_in > .container_t > .btns {
+    display: flex;
+    align-items: center;
+}
+
+.btns > .btn_one {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btns > .btn_one > .button {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn_one > .complete {
+    display: none;
+}
+
+.btn_two {
+    display: inline-block;
+}
+
+.btn_two > .button_two {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn_two > .didn_t_remember {
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*конец (красота написания)*/
+
+
+
+
+/**/
+footer {
+    width: 100%;
+    background-color: gold;
+}
+
+footer > .footer_container {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+/**/
