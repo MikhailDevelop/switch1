@@ -1,35 +1,4 @@
-//hover
-var word_one = document.getElementsByClassName('I')[0].onmouseenter = function() {
-                            var I = document.getElementsByClassName('I_transl')[0];
-                            I.style.background = 'yellow';
-                        }
-                        var word_one_out = document.getElementsByClassName('I')[0].onmouseout = function() {
-                            var I = document.getElementsByClassName('I_transl')[0];
-                            I.style.background = 'transparent';
-                        }
-
-                        var word_two = document.getElementsByClassName('speak')[0].onmouseenter = function() {
-                            var speak = document.getElementsByClassName('speak_transl')[0];
-                            speak.style.background='yellow';
-                        }
-
-                        var word_two = document.getElementsByClassName('speak')[0].onmouseout = function() {
-                            var speak = document.getElementsByClassName('speak_transl')[0];
-                            speak.style.background='transparent';
-                        }
-
-                        var word_three = document.getElementsByClassName('english')[0].onmouseenter = function() {
-                            var english = document.getElementsByClassName('english_transl')[0];
-                            english.style.background='yellow';
-                        }
-
-                        var word_three = document.getElementsByClassName('english')[0].onmouseout = function() {
-                            var english = document.getElementsByClassName('english_transl')[0];
-                            english.style.background='transparent';
-                        }
-       //end hover
-       
-    //var scores = 0;
+var scores = 0;
                         var btn = document.getElementsByClassName('button')[0].onclick = function() {
                             //style
                             var cont = document.getElementsByClassName('complete')[0];
@@ -180,6 +149,3 @@ var word_one = document.getElementsByClassName('I')[0].onmouseenter = function()
                 }
                         
                     </script>
-
-
-       
