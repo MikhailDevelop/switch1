@@ -1,0 +1,185 @@
+//hover
+var word_one = document.getElementsByClassName('I')[0].onmouseenter = function() {
+                            var I = document.getElementsByClassName('I_transl')[0];
+                            I.style.background = 'yellow';
+                        }
+                        var word_one_out = document.getElementsByClassName('I')[0].onmouseout = function() {
+                            var I = document.getElementsByClassName('I_transl')[0];
+                            I.style.background = 'transparent';
+                        }
+
+                        var word_two = document.getElementsByClassName('speak')[0].onmouseenter = function() {
+                            var speak = document.getElementsByClassName('speak_transl')[0];
+                            speak.style.background='yellow';
+                        }
+
+                        var word_two = document.getElementsByClassName('speak')[0].onmouseout = function() {
+                            var speak = document.getElementsByClassName('speak_transl')[0];
+                            speak.style.background='transparent';
+                        }
+
+                        var word_three = document.getElementsByClassName('english')[0].onmouseenter = function() {
+                            var english = document.getElementsByClassName('english_transl')[0];
+                            english.style.background='yellow';
+                        }
+
+                        var word_three = document.getElementsByClassName('english')[0].onmouseout = function() {
+                            var english = document.getElementsByClassName('english_transl')[0];
+                            english.style.background='transparent';
+                        }
+       //end hover
+       
+    //var scores = 0;
+                        var btn = document.getElementsByClassName('button')[0].onclick = function() {
+                            //style
+                            var cont = document.getElementsByClassName('complete')[0];
+                                cont.style.display='inline-block';
+                                cont.style.position='absolute';
+                                cont.style.backgroundColor='rgb(93, 204, 93)';
+                                cont.style.color='white';
+                                cont.style.padding='7.5px 40px';
+                                cont.style.marginLeft = '-274px';
+                            //style
+
+                            //container_in
+                            var container = document.getElementsByClassName('container_in')[0];
+                            function Time() {
+                                container.style.display='none';
+                            }
+
+                            setTimeout(Time, 1000); // container_in invisible
+                           
+                            
+                            //=== code 
+                            setTimeout(l, 1000);
+                             
+                            var result = scores;
+                            
+                            if(scores == 0) {
+                                scores++;
+                                console.log(scores);
+                                if(scores = 1) {
+                                    console.log('scores +' + scores)
+                                }
+                            }
+
+                             console.log('scores: ', scores);
+                            
+                             function l() {
+                                cont.style.display='none'; //112 stroke invisible
+                            }
+                            // var delicious = scores;
+
+                            //===
+
+                           //event 
+                           // Это событие дожно появлятся (должен появится красный квадратный див)
+                           setTimeout(I, 3000);
+                            function I() {
+                                if(container.style.display='none') {
+                                    var task_two = document.createElement('div');
+
+                                    var cl = task_two.classList.add('task');
+                                    // var content_task_two = 
+                                        task_two.width='100px';
+                                        task_two.height='100px';
+                                        task_two.background='red';
+                                        task_two.innerHTML = 'love';
+
+                                        // var prepend1 = document.;
+
+                                       
+
+                                        console.log(task_two);
+                                        console.log(prepend1);
+
+                                } else {
+                                    console.log('love');
+                                }
+                            }
+//
+                            //end event
+                            
+                        }
+                        console.log(scores);
+                        console.log(btn);
+                   
+                        var mistake = 0;
+                        var btn_two = document.getElementsByClassName('button_two')[0].onclick = function() {
+                            var cont_didnt = document.getElementsByClassName('didn_t_remember')[0];
+                             // style ====
+                                cont_didnt.style.display='inline-block';
+                                cont_didnt.style.position='absolute';
+                                cont_didnt.style.backgroundColor='rgb(255, 37, 37)';
+                                cont_didnt.style.color='white';
+                                cont_didnt.style.padding='7.5px 30px';
+                                cont_didnt.style.marginLeft = '-370px';
+
+                            
+                            var container_two = document.getElementsByClassName('container_in')[0];
+
+
+                             setTimeout(didn_t_remember, 1000);
+                                function didn_t_remember() {
+                                    container_two.style.display='none';
+                                }
+
+                            //style === 
+                             setTimeout(r, 1000);
+
+                            //  scores - 1;
+                             
+                             var result = scores - 1;
+
+                             
+                             console.error('scores: ', scores);
+                             
+                             function r() {
+                                cont_didnt.style.display='none';
+                            }              
+                            // var mistake = scores--;
+
+                            whole; //function() {} 168 stroke
+
+                            console.log(whole());
+                        }
+                        console.log(btn_two);
+
+                    function whole() {
+
+                         if(answer > 0){
+                              console.log('good' + answer);
+                           }
+                         else if (answer < 0) { 
+                             console.log('bad' + answer);
+                          }
+
+                         else {
+                             console.log('good ' + 'love'); // mistake ???
+                         }
+
+                 function answer() {
+                        if(scores > mistake) {
+                            console.log('very good');
+                        }
+
+                        else if(scores--) {
+                            console.log('bad--');
+                            
+                        }
+
+                        else if(scores < mistake) {
+                            console.log('scores < mistake');
+                        }
+
+                        else {
+                            console.log('else');
+                        }
+                    }
+                    console.log(answer());
+                }
+                        
+                    </script>
+
+
+       
